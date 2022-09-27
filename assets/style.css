@@ -17,8 +17,6 @@ a:hover{
     color: #5f7a6b;
 }
 
-
-/*Navigation bar*/
 nav{
     display:flex;
     flex-direction: row;
@@ -29,6 +27,7 @@ nav{
 
 
 /*Header*/
+
 .name{
     display: flex;
     flex-direction: row;
@@ -52,6 +51,7 @@ nav{
 
 
 /*About me section*/
+
 .about-me{
     padding: 70px;
     display: flex;
@@ -74,6 +74,7 @@ nav{
     margin-right: 40px;
     margin-top: 150px;
 }
+
 
 
 /*Project 1 and title section*/
@@ -102,13 +103,17 @@ nav{
 }
 
 .project-1 img{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+
     width: 400px;
     height: 400px;
 }
 
 
-
 /*Remaining projects*/
+
 .project-section{
     flex-wrap: wrap;
     display: flex;
@@ -124,6 +129,7 @@ nav{
 
 
 /*Contact me section*/
+
 .contact{
      display: flex;
     flex-direction: column;
