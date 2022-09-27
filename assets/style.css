@@ -17,11 +17,6 @@ a:hover{
     color: #5f7a6b;
 }
 
-/*a:hover img{
-    width: 350px;
-    height: 350px;
-}*/
-
 nav{
     display:flex;
     flex-direction: row;
@@ -30,6 +25,8 @@ nav{
     background-color: #bcc0ba73;
 }
 
+
+/*Header*/
 
 .name{
     display: flex;
@@ -49,7 +46,11 @@ nav{
     padding-bottom:20px;
     margin-top: 30px;
     margin-left: 100px;
+    border-radius: 20%;
 }
+
+
+/*About me section*/
 
 .about-me{
     padding: 70px;
@@ -63,6 +64,10 @@ nav{
     padding-bottom: 20px;
 }
 
+.about-me h1{
+    font-size: 30px;
+}
+
 
 .about-me p{
     text-align: center;
@@ -70,25 +75,60 @@ nav{
     margin-top: 150px;
 }
 
+
+
+/*Project 1 and title section*/
+
+.project{
+    display: flex;
+    flex-direction: row;
+}
+
+#project-title{
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 290px;
+    padding-top: 200px;
+}
+
+.project-1{
+    font-size: 20px;
+    text-align: center;
+    bottom: 0;
+    background:  #5f7a6b59;
+    width: 400px;
+    height: 450px;
+    padding: 20px;
+    margin-bottom: 80px;
+}
+
 .project-1 img{
     display: flex;
     align-items: center;
     justify-content:center;
+
     width: 400px;
     height: 400px;
 }
+
+
+/*Remaining projects*/
 
 .project-section{
     flex-wrap: wrap;
     display: flex;
     flex-direction: row;
    justify-content: space-between;
+   text-align: center;
 }
 
 .project-section img{
     width: 300px;
     height: 300px;
 }
+
+
+/*Contact me section*/
 
 .contact{
      display: flex;
